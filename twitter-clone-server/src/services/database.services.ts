@@ -1,6 +1,7 @@
 import { Collection, Db, MongoClient } from 'mongodb'
 import { config } from 'dotenv'
 import User from '~/models/schemas/User.schema'
+import RefreshToken from '~/models/schemas/RefreshToken.schema'
 
 config()
 
@@ -29,9 +30,13 @@ class DatabaseService {
   get users(): Collection<User> {
     return this.db.collection(process.env.DB_USERS_COLLECTION as string)
   }
+
+  get refreshTokens(): Collection<RefreshToken> {
+    return this.db.collection(process.env.DB_REFRESH_TOKENS_COLLECTION as string)
+  }
 }
 
-// Tạo object từ class DatabaseService
+// Create a new instance of the DatabaseService class
 const databaseService = new DatabaseService()
 
 export default databaseService
