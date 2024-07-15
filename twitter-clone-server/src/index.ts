@@ -6,7 +6,7 @@ import databaseService from '~/services/database.services'
 databaseService.connect()
 
 const app = express()
-const port = 3000
+const port = 4000
 
 app.use(express.json())
 
@@ -15,5 +15,5 @@ app.use('/users', usersRouter)
 app.use(defaultErrorHandler)
 
 app.listen(port, () => {
-  console.log(`Server is running at http://localhost:3000`)
+  console.log(`Server is running at http://localhost:${port}`)
 })
