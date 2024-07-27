@@ -10,3 +10,16 @@ export enum TokenType {
   ForgotPasswordToken,
   EmailVerifyToken
 }
+
+export enum MediaType {
+  Image,
+  Video,
+  HLS
+}
+
+export enum EncodingStatus {
+  Pending,
+  Processing,
+  Success,
+  Failed
+}
