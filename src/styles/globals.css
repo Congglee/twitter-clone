@@ -40,12 +40,13 @@ body {
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
 
-    --tw-primary: 210, 25%, 8%;
-    --tw-border: 192, 19%, 95%;
-    --tw-secondary: 206, 15%, 38%;
-    --tw-line-reply: 200, 19%, 84%;
-    --tw-search-background: 192, 18.5%, 94.7%;
-    --tw-sidebar-background: 180, 14.3%, 97.3%;
+    --tw-primary: 210 25% 8%;
+    --tw-border: 192 19% 95%;
+    --tw-secondary: 206 15% 38%;
+    --tw-line-reply: 200 19% 84%;
+    --tw-search-background: 192 18.5% 94.7%;
+    --tw-sidebar-background: 180 14.3% 97.3%;
+    --tw-twitter-icon: 201 100% 47%;
   }
 
   .dark {
@@ -74,12 +75,13 @@ body {
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
 
-    --tw-primary: 200, 7%, 91%;
-    --tw-border: 206, 7%, 20%;
-    --tw-secondary: 210, 4%, 46%;
-    --tw-line-reply: 210, 6%, 21%;
-    --tw-search-background: 214, 9.9%, 13.9%;
-    --tw-sidebar-background: 220, 12%, 9.8%;
+    --tw-primary: 200 7% 91%;
+    --tw-border: 206 7% 20%;
+    --tw-secondary: 210 4% 46%;
+    --tw-line-reply: 210 6% 21%;
+    --tw-search-background: 214 9.9% 13.9%;
+    --tw-sidebar-background: 220 12% 9.8%;
+    --tw-twitter-icon: 204 6% 85%;
   }
 }
 
