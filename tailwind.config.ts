@@ -81,8 +81,10 @@ const config: Config = {
         "tw-sidebar-background": {
           DEFAULT: "hsl(var(--tw-sidebar-background))",
         },
+        "tw-twitter-icon": {
+          DEFAULT: "hsl(var(--tw-twitter-icon))",
+        },
 
-        "twitter-icon": "#D6D9DB",
         "image-preview-hover": "#272C30",
         "accent-red": "#F4212E",
         "accent-yellow": "#FFD500",
