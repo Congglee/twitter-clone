@@ -93,3 +93,29 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .transition-base {
+    @apply duration-200 transition;
+  }
+
+  .transition-base-colors {
+    @apply duration-200 transition-colors;
+  }
+
+  .focus-visible-base {
+    @apply focus-visible:ring-2 focus-visible:ring-accent-blue focus-visible:transition-shadow focus-visible:duration-200 dark:focus-visible:ring-white;
+  }
+
+  .focus-visible-hidden {
+    @apply ring-0 border-0 focus-visible:ring-offset-0 focus-visible:ring-0;
+  }
+
+  .hover-expand {
+    @apply hover:bg-black/[0.03] focus-visible:bg-black/[0.03] dark:hover:bg-white/[0.03] dark:focus-visible:bg-white/[0.03];
+  }
+
+  .underline-transition {
+    @apply underline decoration-transparent [text-decoration-thickness:1px] hover:decoration-inherit focus-visible:decoration-inherit;
+  }
+}

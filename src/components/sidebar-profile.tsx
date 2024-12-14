@@ -15,7 +15,7 @@ export default function SidebarProfile() {
       <DropdownMenuTrigger asChild>
         <Button
           variant="ghost"
-          className="hidden xs:flex w-full h-auto justify-between transition-colors duration-200 rounded-full p-3 outline-none focus-visible:ring-0 hover:bg-tw-primary/10 active:bg-tw-primary/20"
+          className="hidden xs:flex w-full h-auto justify-between transition-base-colors rounded-full p-3 outline-none focus-visible:ring-0 hover:bg-tw-primary/10 active:bg-tw-primary/20"
         >
           <div className="flex items-center gap-3 truncate">
             <Avatar>
@@ -38,11 +38,11 @@ export default function SidebarProfile() {
           <LucideIcon name="Ellipsis" className="size-6 hidden xl:block" />
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="min-w-72 shadow-[#ffffff33_0px_0px_15px,#ffffff26_0px_0px_3px_1px] rounded-2xl px-0 py-3">
+      <DropdownMenuContent className="min-w-72 shadow-[rgba(255,_255,_255,_0.2)_0px_0px_15px,rgba(255,_255,_255,_0.15)_0px_0px_3px_1px] rounded-2xl px-0 py-3">
         <DropdownMenuItem asChild>
           <Link
             href="#"
-            className="!px-4 py-3 rounded-none cursor-pointer duration-200 transition-colors text-base leading-5 font-bold text-tw-primary"
+            className="!px-4 py-3 rounded-none cursor-pointer transition-base-colors text-base leading-5 font-bold text-tw-primary"
           >
             Add an existing account
           </Link>
@@ -50,7 +50,7 @@ export default function SidebarProfile() {
         <DropdownMenuItem asChild>
           <Link
             href="#"
-            className="!px-4 py-3 rounded-none cursor-pointer duration-200 transition-colors text-base leading-5 font-bold text-tw-primary"
+            className="!px-4 py-3 rounded-none cursor-pointer transition-base-colors text-base leading-5 font-bold text-tw-primary"
           >
             Log out @johndoe
           </Link>
