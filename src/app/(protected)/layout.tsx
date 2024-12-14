@@ -1,3 +1,4 @@
+import Aside from "@/components/aside";
 import Sidebar from "@/components/sidebar";
 
 export default function ProtectedLayout({

@@ -55,13 +55,13 @@ const navLinks: NavLink[] = [
 
 export default function Sidebar() {
   return (
-    <header className="flex w-0 shrink-0 transition-opacity duration-200 xs:w-20 md:w-24 lg:max-w-none xl:-mr-4 xl:w-full xl:max-w-xs xl:justify-end">
+    <header className="flex w-0 shrink-0 transition-opacity xs:w-20 md:w-24 lg:max-w-none xl:-mr-4 xl:w-full xl:max-w-xs xl:justify-end">
       <div className="fixed bottom-0 xs:top-0 z-10 w-full flex flex-col justify-between border-t border-tw-border py-0 xs:h-full xs:w-auto xs:border-0 xs:bg-transparent xs:px-2 xs:py-3 xs:pt-2 md:px-4 xl:w-72">
         <div className="flex flex-col justify-center xs:items-center xl:items-stretch">
           <h1 className="hidden xs:flex">
             <Link
               href="/home"
-              className="text-tw-twitter-icon rounded-full p-2.5 outline-none focus-visible:ring-2 focus-visible:transition-shadow focus-visible:duration-200 dark:focus-visible:ring-white transition duration-200 hover:bg-tw-primary/10 focus-visible:bg-accent-blue/10 focus-visible:ring-accent-blue/80"
+              className="text-tw-twitter-icon rounded-full p-2.5 outline-none  transition-base hover:bg-tw-primary/10 focus-visible:bg-accent-blue/10  focus-visible-base focus-visible:ring-accent-blue/80"
             >
               <LucideIcon className="size-[26px]" name="Twitter" />
             </Link>
